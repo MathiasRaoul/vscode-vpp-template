@@ -1,0 +1,132 @@
+
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "name": "VPP client release gdb server",
+        "type": "cppdbg",
+        "request": "launch",
+        "program": "${workspaceFolder}/build-root/build-vpp-native/vpp/bin/vpp",
+	"miDebuggerServerAddress": "localhost:2002",
+        "args": [],
+        "stopAtEntry": false,
+        "cwd": "${workspaceRoot}/",
+        "environment": [],
+        "externalConsole": true,
+        "linux": {
+          "MIMode": "gdb"
+        },
+        "osx": {
+          "MIMode": "gdb"
+        },
+        "windows": {
+          "MIMode": "gdb"
+        }
+      },
+      {
+        "name": "VPP server release gdb server",
+        "type": "cppdbg",
+        "request": "launch",
+        "program": "${workspaceFolder}/build-root/build-vpp-native/vpp/bin/vpp",
+	"miDebuggerServerAddress": "localhost:2001",
+        "args": [],
+        "stopAtEntry": false,
+        "cwd": "${workspaceRoot}/",
+        "environment": [],
+        "externalConsole": true,
+        "linux": {
+          "MIMode": "gdb"
+        },
+        "osx": {
+          "MIMode": "gdb"
+        },
+        "windows": {
+          "MIMode": "gdb"
+        }
+      },
+      {
+        "name": "VPP client debug gdb server",
+        "type": "cppdbg",
+        "request": "launch",
+        "program": "${workspaceFolder}/build-root/build-vpp_debug-native/vpp/bin/vpp",
+	"miDebuggerServerAddress": "localhost:2002",
+        "args": [],
+        "stopAtEntry": false,
+        "cwd": "${workspaceRoot}/",
+        "environment": [],
+        "externalConsole": true,
+        "linux": {
+          "MIMode": "gdb"
+        },
+        "osx": {
+          "MIMode": "gdb"
+        },
+        "windows": {
+          "MIMode": "gdb"
+        }
+      },
+      {
+        "name": "VPP server debug gdb server",
+        "type": "cppdbg",
+        "request": "launch",
+        "program": "${workspaceFolder}/build-root/build-vpp_debug-native/vpp/bin/vpp",
+	"miDebuggerServerAddress": "localhost:2001",
+        "args": [],
+        "stopAtEntry": false,
+        "cwd": "${workspaceRoot}/",
+        "environment": [],
+        "externalConsole": true,
+        "linux": {
+          "MIMode": "gdb"
+        },
+        "osx": {
+          "MIMode": "gdb"
+        },
+        "windows": {
+          "MIMode": "gdb"
+        }
+      },
+      {
+        "name": "VPP client asan gdb server",
+        "type": "cppdbg",
+        "request": "launch",
+        "program": "${workspaceFolder}/build-root/build-vpp_asan-native/vpp/bin/vpp",
+	"miDebuggerServerAddress": "localhost:2002",
+        "args": [],
+        "stopAtEntry": false,
+        "cwd": "${workspaceRoot}/",
+        "environment": [],
+        "externalConsole": true,
+        "linux": {
+          "MIMode": "gdb"
+        },
+        "osx": {
+          "MIMode": "gdb"
+        },
+        "windows": {
+          "MIMode": "gdb"
+        }
+      },
+      {
+        "name": "VPP server asan gdb server",
+        "type": "cppdbg",
+        "request": "launch",
+        "program": "${workspaceFolder}/build-root/build-vpp_asan-native/vpp/bin/vpp",
+	"miDebuggerServerAddress": "localhost:2001",
+        "args": [],
+        "stopAtEntry": false,
+        "cwd": "${workspaceRoot}/",
+        "environment": [],
+        "externalConsole": true,
+        "linux": {
+          "MIMode": "gdb"
+        },
+        "osx": {
+          "MIMode": "gdb"
+        },
+        "windows": {
+          "MIMode": "gdb"
+        }
+      }
+    ]
+}
